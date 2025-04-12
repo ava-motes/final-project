@@ -4,9 +4,18 @@
 
 {% block content %}
 <div class="container">
-  <div class="row">
-    <div class="col"><h1>Reviews, Rankings, and More</h1>
-<p>Follow along as I share my thoughts on White Lotus Season 3, which is set in Koh Samui, Thailand. We're here for the drama, discourse, and everything in between. Some will say this is director Mike White's slowest season yet, but the devil is in the details. The third installment may be more subtle, but there's a lot to unpack.</p></div>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <h1>Reviews, Rankings, and More</h1>
+      <p>Follow along as I share my thoughts on White Lotus Season 3, which is set in Koh Samui, Thailand. We're here for the drama, discourse, and everything in between. Some will say this is director Mike White's slowest season yet. In my book, that's not necessarily a detractor. The third installment may be more subtle, but there's a lot to unpack.</p>
+
+      <h3>Episode Reviews</h3> {# This isn't actually how I want to do this, but I couldn't get it to bake #}
+      <ul>
+        <li>
+          <a href="{{ relative_path }}reviews.html">See all episode reviews</a> 
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 {% endblock %}

@@ -9,6 +9,16 @@
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
+    },
+    {
+      "fileId": "1Heqq2Tv2L9aMzkr65BRuX1752DixISpSScJP40Gu9BI",
+      "type": "sheet",
+      "name": "ranking"
+    },
+    {
+      "fileId": "1OF3TiLHrhLm2lci7H80_Xb6lZs_vo7jNHW06-6MlrTg",
+      "type": "sheet",
+      "name": "reviews"
     }
   ],
   "to_bake": [
@@ -21,3 +31,4 @@
     }
   ]
 }
+
