@@ -11,13 +11,8 @@
       "name": "bookstores"
     },
     {
-      "fileId": "1Heqq2Tv2L9aMzkr65BRuX1752DixISpSScJP40Gu9BI",
-      "type": "sheet",
-      "name": "ranking"
-    },
-    {
-      "fileId": "1OF3TiLHrhLm2lci7H80_Xb6lZs_vo7jNHW06-6MlrTg",
-      "type": "sheet",
+      "fileId": "10u_wH38VFH17EcqJVp1MNrVgJNg9HzGG937opoPYivQ",
+      "type": "doc",
       "name": "reviews"
     }
   ],
@@ -28,6 +23,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-reviews",
+      "data": "reviews",
+      "array": "reviews",
+      "slug": "slug",
+      "path": "reviews"
     }
   ]
 }
