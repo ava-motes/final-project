@@ -13,6 +13,7 @@
     {% for character in ranking.characters %}
     <div class="col mb-4">
       <div class="card">
+        <img src="img/{{ character.image }}" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title">
             {{ character.rank }}. {{ character.name }}
@@ -21,6 +22,9 @@
               Played by {{ character.actor }}
           </h6>
           <p class="card-text">{{ character.reasoning }}</p>
+        </div>
+        <div class="card-footer">
+          <a href="{{ character.source }}" class="card-link">Image Source</a>
         </div>
       </div>
     </div>
