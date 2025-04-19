@@ -5,13 +5,13 @@
 {% block page_description %}A ranking of all characters in season 3.{% endblock %}
 
 {% block content %}
-<article class="container">
-  <h1>My Definitive Character Ranking</h1>
-  <p>This is a live character ranking, which is updated each Sunday after new episodes air. No one is safe, and the tables can certainly turn. Check back for updates each week!</p>
+<article class="container justify-content-center">
+  <h1 class="col-12 col-sm-8 col-md-9 col-lg-10 mx-auto mb-4">My Definitive Character Ranking</h1>
+  <p class="col-12 col-sm-8 col-md-9 col-lg-10 mx-auto mb-4">This is a live character ranking, which is updated each Sunday after new episodes air. No one is safe, and the tables can certainly turn. Check back for updates each week!</p>
 
-  <div class="row row-cols-1 row-cols-md-1 g-4 row-cols-lg-2">
+  <div class="row row-cols-1">
     {% for character in ranking.characters %}
-    <div class="col mb-4">
+    <div class="col-12 col-sm-8 col-md-9 col-lg-10 mx-auto mb-4">
       <div class="card">
         <img src="img/{{ character.image }}" class="card-img-top" alt="...">
         <div class="card-body">

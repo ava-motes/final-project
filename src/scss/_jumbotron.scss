@@ -2,9 +2,23 @@
   background: url(../img/white-lotus-jumbotron.jpg) no-repeat center;
   background-size: cover;
   color: white;
-  padding-top: 12rem
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
 }
 
 #jumbo {
   margin-bottom: 30px;
+}
+
+.site-title {
+  font-family: "Charm", cursive;
+  color: white;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.site-subhead {
+  font-family: "Lora", serif;
+  font-size: 1.1rem;
 }

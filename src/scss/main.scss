@@ -20,8 +20,14 @@
 
 // Import partials
 @import 'nav';
-@import "jumbotron";
+@import 'jumbotron';
 @import 'reviews';
+@import 'character-ranking';
+@import 'index';
+
+h1, h3, p {
+  font-family: "Lora", serif;
+}
 
 h3 {
   font-size: 1.5rem;
