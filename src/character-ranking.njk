@@ -9,11 +9,11 @@
   <h1 class="col-12 col-sm-8 col-md-9 col-lg-10 mx-auto mb-4">My Definitive Character Ranking</h1>
   <p class="col-12 col-sm-8 col-md-9 col-lg-10 mx-auto mb-4">This is a live character ranking, which is updated each Sunday after new episodes air. No one is safe, and the tables can certainly turn. Check back for updates each week!</p>
 
-  <div class="row row-cols-1">
+  <div class="row">
     {% for character in ranking.characters %}
-    <div class="col-12 col-sm-8 col-md-9 col-lg-10 mx-auto mb-4">
-      <div class="card">
-        <img src="img/{{ character.image }}" class="card-img-top" alt="...">
+    <div class="col-12 col-lg-6 mx-auto mb-4">
+      <div class="card h-100 d-flex">
+        <img src="img/{{ character.image }}" class="card-img-top object-fit-cover" alt="...">
         <div class="card-body">
           <h3 class="card-title">
             {{ character.rank }}. {{ character.name }}
